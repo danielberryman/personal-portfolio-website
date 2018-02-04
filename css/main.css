@@ -190,33 +190,33 @@ footer a:hover {
 }
 
 .sub-page-title {
-    color: black;
+    background: linear-gradient(to bottom right, #3D3B30, black);
+    color: white;
     font-family: 'Roboto Slab', serif;
     height: 600px;
-    padding: 80px 5%;
+    padding: 140px 5%;
     text-align: center;
     width: 100%;
 }
 
 .sub-page-title h1 {
-    font-size: 40px;
+    font-size: 35px;
     margin: 0;
 }
 
 .sub-page-title h2 {
-    font-size: 25px;
+    font-size: 20px;
     margin: 0 0 35px 0;
 }
 
 .sub-page-title p {
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 15px;
+    line-height: 25px;
     margin: 15px 0 0 0;
 }
 
 .sub-page-content {
-    background: linear-gradient(to bottom right, #3D3B30, black);
-    color: white;
+    color: black;
     font-family: 'Roboto Slab', serif;
     padding: 0 5%;
     width: 100%;
@@ -393,34 +393,34 @@ span {
 }
 
 .sub-page-title {
-    color: black;
+    background: linear-gradient(to bottom right, #3D3B30, black);
+    color: white;
     font-family: 'Roboto Slab', serif;
     height: 600px;
-    padding: 80px 5%;
+    padding: 140px 5%;
     text-align: center;
     width: 100%;
 }
 
 .sub-page-title h1 {
-    font-size: 75px;
+    font-size: 45px;
     margin: 0;
 }
 
 .sub-page-title h2 {
-    font-size: 40px;
-    margin: 0 0 60px 0;
+    font-size: 25px;
+    margin: 0 0 35px 0;
 }
 
 .sub-page-title p {
     font-size: 20px;
-    line-height: 40px;
-    margin: 30px 12% 0 12%;
-    width: 76%;
+    line-height: 30px;
+    margin: 15px 20% 0 20%;
+    width: 60%;
 }
 
 .sub-page-content {
-    background: linear-gradient(to bottom right, #3D3B30, black);
-    color: white;
+    color: black;
     font-family: 'Roboto Slab', serif;
     height: 500px;
     padding: 0 5%;
@@ -455,6 +455,7 @@ span {
 }
 
 .portfolio-instance img {
+    border: 1px solid black;
     height: auto;
     padding-bottom: 25px;
     width: 100%;
