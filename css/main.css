@@ -193,8 +193,7 @@ footer a:hover {
     background: linear-gradient(to bottom right, #3D3B30, black);
     color: white;
     font-family: 'Roboto Slab', serif;
-    height: 600px;
-    padding: 140px 5%;
+    padding: 110px 5%;
     text-align: center;
     width: 100%;
 }
@@ -229,7 +228,11 @@ footer a:hover {
 
 .portfolio h3 {
     margin: 0;
-    padding: 20px 0 30px 0;
+    padding: 30px 15px 10px 15px;
+}
+
+.portfolio p {
+    padding: 0 15px 10px 15px;
 }
 
 .portfolio-instance h4 {
@@ -237,16 +240,36 @@ footer a:hover {
 }
 
 .portfolio-instance img {
+    border: 1px solid black;
     height: auto;
     margin-bottom: 25px;
     width: 100%;
 }
 
+.container {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+}
 
+.container img {
+    border: 1px solid black;
+    margin-bottom: 25px;
+    width: 100%;
+}
 
+.col {
+    /*padding: 0 !important;*/
+}
 
-
-
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
 
 
 /* ==========================================================================
@@ -339,6 +362,14 @@ footer a:hover {
    Modify as content requires.
    ========================================================================== */
 
+@media (min-width: 768px) and (max-width: 1024px) {
+
+.section01 h1 {
+    padding-left: 30px;
+}
+
+}
+
 @media (min-width: 1024px) {
 
 .section01 {
@@ -350,7 +381,7 @@ footer a:hover {
 .section01 h1 {
     font-size: 40px;
     margin: 0;
-    padding: 190px 0 190px 30px;
+    padding: 190px 0 190px 50px;
 }
 
 .container {
@@ -396,8 +427,7 @@ span {
     background: linear-gradient(to bottom right, #3D3B30, black);
     color: white;
     font-family: 'Roboto Slab', serif;
-    height: 600px;
-    padding: 140px 5%;
+    padding: 90px 5%;
     text-align: center;
     width: 100%;
 }
@@ -415,14 +445,13 @@ span {
 .sub-page-title p {
     font-size: 20px;
     line-height: 30px;
-    margin: 15px 20% 0 20%;
+    margin: 35px 20% 0 20%;
     width: 60%;
 }
 
 .sub-page-content {
     color: black;
     font-family: 'Roboto Slab', serif;
-    height: 500px;
     padding: 0 5%;
     width: 100%;
 }
@@ -440,7 +469,7 @@ span {
 
 .portfolio p {
     font-size: 16px;
-    padding: 0 0 5% 1.155%;
+    padding: 0 0 3% 1.155%;
 }
 
 .portfolio-instance {
@@ -459,6 +488,10 @@ span {
     height: auto;
     padding-bottom: 25px;
     width: 100%;
+}
+
+.col {
+
 }
 
 footer {
