@@ -141,7 +141,7 @@ a {
     transition: all 1s ease-out;
 }
 
-.container div:hover {
+.container-hover div:hover {
     color: #666666;
 }
 
@@ -214,6 +214,14 @@ footer a:hover {
     margin: 15px 0 0 0;
 }
 
+.sub-page-title a {
+    color: white;
+}
+
+.sub-page-title a:hover {
+    color: #666666;
+}
+
 .sub-page-content {
     color: black;
     font-family: 'Roboto Slab', serif;
@@ -270,7 +278,6 @@ footer a:hover {
   display: flex;
   flex-direction: column;
 }
-
 
 /* ==========================================================================
    Helper classes

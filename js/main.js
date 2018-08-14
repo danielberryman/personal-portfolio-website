@@ -33,3 +33,7 @@ $(document).ready(function(){
 		.addTo(controller);
 	});
 });
+
+$(".box").click(function() {
+	$('.box').toggleClass('.box');
+});
